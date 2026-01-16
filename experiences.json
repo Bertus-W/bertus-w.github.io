@@ -1,0 +1,38 @@
+[
+    {
+        "company": "Btrkoop",
+        "role": "Software Engineer (Freelance)",
+        "duration": "Jan 2024 - Present",
+        "description_en": "Developed cross-platform mobile applications with Flutter/Dart. Built backend services with Python/FastAPI. Developed web scrapers with Scrapy for product data collection.",
+        "description_nl": "Ontwikkelde cross-platform mobiele applicaties met Flutter/Dart. Bouwde backend services met Python/FastAPI. Ontwikkelde webscrapers met Scrapy voor het verzamelen van productdata.",
+        "image": "images/btrkoop.png",
+        "skills": ["Flutter", "Dart", "Python", "FastAPI", "Scrapy"]
+    },
+    {
+        "company": "TKNI.CO",
+        "role": "Software Engineer",
+        "duration": "Aug 2022 - Sep 2024",
+        "description_en": "Developed a version control system with Pulp, Angular, and Python. Automated infrastructure with Puppet for system configuration management. Set up CI/CD pipelines with GitLab. Developed embedded software in C++ for STM32 (ARM Cortex-M) Sensorbox project. Performed reverse engineering of electronic schematics and software.",
+        "description_nl": "Ontwikkelde een versiebeheersysteem met Pulp, Angular en Python. Automatiseerde infrastructuur met Puppet voor systeemconfiguratiebeheer. Zette CI/CD-pijplijnen op met GitLab. Ontwikkelde embedded software in C++ voor het STM32 (ARM Cortex-M) Sensorbox-project. Voerde reverse engineering uit van elektronische schema's en software.",
+        "image": "images/tknico.png",
+        "skills": ["C++", "STM32", "Python", "Angular", "Puppet", "GitLab", "CI/CD"]
+    },
+    {
+        "company": "Infoment",
+        "role": "Software Engineer",
+        "duration": "May 2021 - Nov 2021",
+        "description_en": "Developed a cross-platform mobile application for a social platform (Android/iOS).",
+        "description_nl": "Ontwikkelde een cross-platform mobiele applicatie voor een sociaal platform (Android/iOS).",
+        "image": "images/infoment.png",
+        "skills": ["Flutter", "Dart", "Android", "iOS"]
+    },
+    {
+        "company": "Technolution",
+        "role": "Intern",
+        "duration": "Sep 2020 - Jan 2021",
+        "description_en": "Implemented and tested YOLO models for object detection on Jetson Nano. Performed performance analysis and optimizations on Jetson Nano.",
+        "description_nl": "Implementeerde en testte YOLO-modellen voor objectdetectie op Jetson Nano. Voerde prestatieanalyses en optimalisaties uit op Jetson Nano.",
+        "image": "images/technolution.png",
+        "skills": ["Python", "YOLO", "Jetson Nano"]
+    }
+]

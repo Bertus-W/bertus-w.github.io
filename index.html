@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Bertus Wisman - Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="#" class="logo">Bertus Wisman</a>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home" data-translate="nav_home">Home</a></li>
+                    <li>
+                        <a href="#about" data-translate="nav_skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#experiences" data-translate="nav_experiences"
+                            >Experiences</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#projects" data-translate="nav_projects"
+                            >Projects</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contact" data-translate="nav_contact"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+                <div class="lang-switcher">
+                    <button id="lang-en">EN</button>
+                    <button id="lang-nl">NL</button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <div class="hero">
+                    <h1>Bertus Wisman</h1>
+                    <p >
+                        <span class="software-engineer-title" data-translate="hero_title">Software Engineer</span>
+                    </p>
+                    <p class="hero-about-text" data-translate="about_text">
+                        I am a developer with a broad skill set who enjoys
+                        working on challenging projects. I am always learning,
+                        improving my skills, and building solutions that are
+                        useful and make a real difference. View my experience
+                        and projects below here.
+                    </p>
+                    <a
+                        href="#experiences"
+                        class="btn"
+                        data-translate="hero_button"
+                        >View My Work</a
+                    >
+                </div>
+            </section>
+
+            <section id="about">
+                <h2 data-translate="skills_title">Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3 data-translate="skill_cat_embedded">Embedded Systems</h3>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>STM32 (ARM Cortex-M)</li>
+                            <li>RTOS</li>
+                            <li>PCB Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="skill_cat_webmobile">Web & Mobile</h3>
+                        <ul>
+                            <li>Flutter/Dart</li>
+                            <li>JavaScript</li>
+                            <li>FastAPI</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="skill_cat_devops">Backend & DevOps</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>Linux</li>
+                            <li>Git/GitLab</li>
+                            <li>Docker</li>
+                            <li>Puppet</li>
+                            <li>Scrapy</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-translate="skill_cat_databases">Databases</h3>
+                        <ul>
+                            <li>SQLite</li>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiences">
+                <h2 data-translate="experiences_title">Experiences</h2>
+                <div class="experience-list"></div>
+            </section>
+
+            <section id="projects">
+                <h2 data-translate="projects_title">Projects</h2>
+                <div class="project-grid"></div>
+            </section>
+        </main>
+
+        <footer id="contact">
+            <h2 data-translate="contact_title">Contact Me</h2>
+            <p>
+                <span data-translate="contact_text">You can reach me on</span>
+                <a href="https://github.com/bertus-w">GitHub</a>
+            </p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>

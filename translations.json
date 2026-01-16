@@ -1,0 +1,42 @@
+{
+  "en": {
+    "nav_home": "Home",
+    "nav_skills": "Skills",
+    "nav_experiences": "Experiences",
+    "nav_projects": "Projects",
+    "nav_contact": "Contact",
+    "hero_title": "Software Engineer",
+    "hero_about_text": "I'm a developer with a broad skill set who enjoys working on challenging projects. I'm always learning, improving my skills, and building solutions that are useful and make a real difference. View my experience and projects below here.",
+    "hero_summary": "",
+    "hero_button": "View My Work",
+    "skills_title": "Skills",
+    "skill_cat_embedded": "Embedded Systems",
+    "skill_cat_webmobile": "Web & Mobile",
+    "skill_cat_devops": "Backend & DevOps",
+    "skill_cat_databases": "Databases",
+    "experiences_title": "Experiences",
+    "projects_title": "Projects",
+    "contact_title": "Contact Me",
+    "contact_text": "You can reach me on GitHub"
+  },
+  "nl": {
+    "nav_home": "Home",
+    "nav_skills": "Vaardigheden",
+    "nav_experiences": "Ervaring",
+    "nav_projects": "Projecten",
+    "nav_contact": "Contact",
+    "hero_title": "Software Engineer",
+    "hero_about_text": "Ik ben een ontwikkelaar met een brede skillset die graag werkt aan uitdagende projecten. Ik blijf mezelf continu ontwikkelen, mijn vaardigheden verbeteren en oplossingen bouwen die nuttig zijn en echt het verschil maken. Bekijk hieronder mijn ervaring en projecten.",
+    "hero_summary": "",
+    "hero_button": "Bekijk Mijn Werk",
+    "skills_title": "Vaardigheden",
+    "skill_cat_embedded": "Embedded Systems",
+    "skill_cat_webmobile": "Web & Mobiel",
+    "skill_cat_devops": "Backend & DevOps",
+    "skill_cat_databases": "Databases",
+    "experiences_title": "Ervaring",
+    "projects_title": "Projecten",
+    "contact_title": "Neem Contact Op",
+    "contact_text": "Je kunt me bereiken op GitHub"
+  }
+}

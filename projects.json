@@ -1,0 +1,50 @@
+[
+    {
+        "name": "chip8-esp",
+        "description_en": "A port of the CHIP-8 emulator for the ESP32.",
+        "description_nl": "Een port van de CHIP-8 emulator voor de ESP32.",
+        "url": "https://github.com/bertus-w/chip8-esp",
+        "image": "images/chip8-esp.png",
+        "skills": ["C/C++", "ESP32"]
+    },
+    {
+        "name": "chip8-emulator",
+        "description_en": "A CHIP-8 emulator written in C++.",
+        "description_nl": "Een CHIP-8 emulator geschreven in C++.",
+        "url": "https://github.com/bertus-w/chip8-emulator",
+        "image": "images/chip8.png",
+        "skills": ["C++"]
+    },
+    {
+        "name": "brainfuck-interpreter",
+        "description_en": "A Brainfuck interpreter written in C++.",
+        "description_nl": "Een Brainfuck interpreter geschreven in C++.",
+        "url": "https://github.com/bertus-w/brainfuck-interpreter",
+        "image": "images/brainfuck.png",
+        "skills": ["C++"]
+    },
+    {
+        "name": "Ring-Doorbell-Screen-ESP32",
+        "description_en": "A proof-of-concept project that enables displaying a live feed from a Ring doorbell on an ESP32 device.",
+        "description_nl": "Een proof-of-concept project dat het mogelijk maakt om een live feed van een Ring deurbel weer te geven op een ESP32 apparaat.",
+        "url": "https://github.com/bertus-w/Ring-Doorbell-Screen-ESP32",
+        "image": "images/ring.png",
+        "skills": ["C/C++", "ESP32"]
+    },
+    {
+        "name": "System-Automation",
+        "description_en": "A home automation project.",
+        "description_nl": "Een domotica project.",
+        "url": "https://github.com/bertus-w/System-Automation",
+        "image": "images/system-automation.png",
+        "skills": ["Python", "Home Automation"]
+    },
+    {
+        "name": "artsey-pcb-design",
+        "description_en": "PCB design files for an Artsey keyboard.",
+        "description_nl": "PCB ontwerpbestanden voor een Artsey toetsenbord.",
+        "url": "https://github.com/bertus-w/artsey-pcb-design",
+        "image": "images/artsey.png",
+        "skills": ["PCB Design", "KiCad"]
+    }
+]
