@@ -53,6 +53,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }, observerOptions);
 
+  const sampleImageBackground = (img) => {
+    const canvas = document.createElement("canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = img.naturalWidth;
+    canvas.height = img.naturalHeight;
+    ctx.drawImage(img, 0, 0);
+    // Sample top-left corner pixel
+    const pixel = ctx.getImageData(0, 0, 1, 1).data;
+    return `rgb(${pixel[0]}, ${pixel[1]}, ${pixel[2]})`;
+  };
+
   const renderSkillBadges = (skills) => {
     if (!skills || skills.length === 0) return "";
     return `
@@ -100,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="experience-card-header">
               ${logoHtml}
               <div class="experience-card-title">
-                <h3>${experience.role} at ${experience.company}</h3>
+                <h3>${experience["role_" + lang]} ${lang === "nl" ? "bij" : "at"} ${experience.company}</h3>
                 <p class="duration">${experience.duration}</p>
               </div>
             </div>
@@ -116,14 +127,10 @@ document.addEventListener("DOMContentLoaded", () => {
           const projectCard = document.createElement("div");
           projectCard.classList.add("project-card");
 
-          const imageHtml = project.image
-            ? `<img src="${project.image}" alt="${project.name}" class="project-card-image" onerror="this.style.display='none'">`
-            : "";
-
           const viewText = lang === "nl" ? "Bekijk op GitHub" : "View on GitHub";
 
           projectCard.innerHTML = `
-            ${imageHtml}
+            ${project.image ? `<div class="project-card-image-container"><img src="${project.image}" alt="${project.name}" class="project-card-image" onerror="this.parentElement.style.display='none'"></div>` : ""}
             <div class="project-card-content">
               <h3>${project.name}</h3>
               <p>${project["description_" + lang]}</p>
@@ -131,6 +138,16 @@ document.addEventListener("DOMContentLoaded", () => {
               <a href="${project.url}">${viewText}</a>
             </div>
           `;
+
+          // Sample background color from image corner
+          const img = projectCard.querySelector(".project-card-image");
+          if (img) {
+            img.onload = () => {
+              const bgColor = sampleImageBackground(img);
+              img.parentElement.style.backgroundColor = bgColor;
+            };
+          }
+
           projectGrid.appendChild(projectCard);
           observer.observe(projectCard);
         });

@@ -33,8 +33,8 @@
     },
     {
         "name": "System-Automation",
-        "description_en": "A home automation project.",
-        "description_nl": "Een domotica project.",
+        "description_en": "A home automation project built for my HBO study at De Haagse Hogeschool.",
+        "description_nl": "Een domotica project gebouwd voor mijn HBO-studie aan De Haagse Hogeschool.",
         "url": "https://github.com/bertus-w/System-Automation",
         "image": "images/system-automation.png",
         "skills": ["Python", "Home Automation"]

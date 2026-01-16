@@ -303,11 +303,19 @@ h2 {
     flex-direction: column;
 }
 
-.project-card-image {
+.project-card-image-container {
     width: 100%;
     height: 160px;
-    object-fit: cover;
     border-bottom: 1px solid var(--grid-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .project-card-content {
