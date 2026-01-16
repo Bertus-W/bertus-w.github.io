@@ -17,7 +17,7 @@
     "experiences_title": "Experiences",
     "projects_title": "Projects",
     "contact_title": "Contact Me",
-    "contact_text": "You can reach me on GitHub"
+    "contact_text": "You can reach me via email at"
   },
   "nl": {
     "nav_home": "Home",
@@ -37,6 +37,6 @@
     "experiences_title": "Ervaring",
     "projects_title": "Projecten",
     "contact_title": "Neem Contact Op",
-    "contact_text": "Je kunt me bereiken op GitHub"
+    "contact_text": "Je kunt me bereiken via e-mail op"
   }
 }

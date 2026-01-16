@@ -21,6 +21,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.querySelector(".hamburger");
   const navLinks = document.querySelector(".nav-links");
 
+  const constructEmailLink = () => {
+    const encodedUser = "Yi53aXNtYW4=";
+    const encodedDomain = "aWNsb3VkLmNvbQ==";
+
+    const user = atob(encodedUser); // Decode base64
+    const domain = atob(encodedDomain); // Decode base64
+
+    const emailAddress = user + "@" + domain;
+    const emailElement = document.getElementById("email-contact");
+    if (emailElement) {
+      emailElement.innerHTML = `<a href="mailto:${emailAddress}" class="email-button">${emailAddress}</a>`;
+    }
+  };
+
   // Intersection Observer for scroll animations
   const observerOptions = {
     root: null,
@@ -133,4 +147,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Set initial language
   setLanguage(currentLang);
+  constructEmailLink();
 });

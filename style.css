@@ -153,6 +153,22 @@ h2 {
     background: #2980b9;
 }
 
+.email-button {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 8px 16px; /* Slightly smaller padding than .btn */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    display: inline-block; /* Essential for padding and sizing */
+    margin-left: 5px; /* Add a small space from the "You can reach me via email at" text */
+}
+
+.email-button:hover {
+    background: #2980b9;
+}
+
 .about-container {
     display: flex;
     flex-direction: column;
