@@ -1,5 +1,15 @@
 [
     {
+        "company": "Alflex",
+        "role_en": "(Embedded) Software Engineer",
+        "role_nl": "(Embedded) Software Engineer",
+        "duration": "Mar 2026 - Present",
+        "description_en": "Develops embedded software in C for ESP32 microcontrollers. Builds internal tooling in C#.",
+        "description_nl": "Ontwikkelt embedded software in C voor ESP32-microcontrollers. Bouwt daarnaast interne tooling in C#.",
+        "image": "images/alflex.png",
+        "skills": ["C", "C#", "ESP32"]
+    },
+    {
         "company": "Btrkoop",
         "role_en": "Software Engineer (Self-employed)",
         "role_nl": "Software Engineer (Zelfstandig)",
