@@ -1,0 +1,12 @@
+        Accept: application/json
+        Accept-Language: en-USen;q=0.5
+        Accept-Encoding: gzip deflate br
+        DNT: 1
+        Sec-GPC: 1
+        Connection: keep-alive
+        Upgrade-Insecure-Requests: 1
+        Sec-Fetch-Dest: document
+        Sec-Fetch-Mode: navigate
+        Sec-Fetch-Site: none
+        Sec-Fetch-User: ?1
+        Content-Type: application/json

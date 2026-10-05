@@ -1,5 +1,12 @@
 [
     {
+        "name": "Navigation Handheld",
+        "description_en": "A prototype of a handheld navigation device, built with Zephyr RTOS on an STM32U535 with a u-blox M10N GPS module and an Adafruit Sharp Memory Display. The goal is to one day develop it into a usable device for personal use. Closed source.",
+        "description_nl": "Een prototype van een handheld navigatieapparaat, gebouwd met Zephyr RTOS op een STM32U535 met een u-blox M10N GPS-module en een Adafruit Sharp Memory Display. Het doel is om het ooit uit te werken tot een bruikbaar apparaat voor persoonlijk gebruik. Closed source.",
+        "image": "images/nav-handheld.jpg",
+        "skills": ["C", "Zephyr", "STM32", "GPS", "Embedded"]
+    },
+    {
         "name": "chip8-esp",
         "description_en": "A port of the CHIP-8 emulator for the ESP32.",
         "description_nl": "Een port van de CHIP-8 emulator voor de ESP32.",

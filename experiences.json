@@ -1,52 +1,84 @@
 [
     {
         "company": "Alflex",
-        "role_en": "(Embedded) Software Engineer",
-        "role_nl": "(Embedded) Software Engineer",
+        "role_en": "Embedded Software Engineer",
+        "role_nl": "Embedded Software Engineer",
         "duration": "Mar 2026 - Present",
-        "description_en": "Develops embedded software in C, including with FreeRTOS, and builds internal tooling in C#. Worked on an automated PCB programming robot, on firmware in which a Bluetooth connection is replaced by a modem, and on the further development of an internal measurement device. Also optimized a slow .NET inventory system.",
-        "description_nl": "Ontwikkelt embedded software in C, onder meer met FreeRTOS, en bouwt interne tooling in C#. Werkte aan een geautomatiseerde PCB-programmeerrobot, aan firmware waarin een Bluetooth-verbinding wordt vervangen door een modem, en aan de doorontwikkeling van een intern meetapparaat. Optimaliseerde daarnaast een traag .NET-voorraadsysteem.",
+        "description_en": "Firmware in C on FreeRTOS and ESP32, and internal tooling in C#. Built a programming robot from a 3D printer that programs a panel of 90 PCBs unattended in 25 minutes (40–45 by hand), reading each board's serial number for product tracking. Developed modem firmware replacing a Bluetooth dongle, a CAN-bus sensor prototype with live data in Grafana, and cut an inventory system's load time from 7 s to 300 ms.",
+        "description_nl": "Firmware in C op FreeRTOS en ESP32, en interne tooling in C#. Bouwde een programmeerrobot uit een 3D-printer die een paneel van 90 PCB's onbeheerd programmeert in 25 minuten (handmatig 40–45), inclusief uitlezen van het serienummer per board voor producttracking. Ontwikkelde modemfirmware als vervanger van een Bluetooth-dongle, een CAN-bus-sensorprototype met live data in Grafana, en verlaagde de laadtijd van een voorraadsysteem van 7 s naar 300 ms.",
         "image": "images/alflex.png",
-        "skills": ["C", "C#", "FreeRTOS", "ESP32", ".NET"]
+        "skills": [
+            "C",
+            "FreeRTOS",
+            "ESP32",
+            "CAN bus",
+            "C#",
+            ".NET"
+        ]
     },
     {
         "company": "Btrkoop",
-        "role_en": "Software Engineer (Self-employed)",
-        "role_nl": "Software Engineer (Zelfstandig)",
-        "duration": "Sep 2024 - Present",
-        "description_en": "Developed cross-platform mobile applications with Flutter/Dart. Built backend services with Python/FastAPI. Developed web scrapers with Scrapy for product data collection.",
-        "description_nl": "Ontwikkelde cross-platform mobiele applicaties met Flutter/Dart. Bouwde backend services met Python/FastAPI. Ontwikkelde webscrapers met Scrapy voor het verzamelen van productdata.",
+        "role_en": "Co-Founder",
+        "role_nl": "Co-Founder",
+        "duration": "Jan 2024 - Present",
+        "description_en": "Grocery app that alerts you when your products are on offer and splits your list across the cheapest supermarkets. 6,500+ users, 7 supermarket chains, live on iOS and Android. I build the Flutter app, the Python/FastAPI backend on PostgreSQL, and the Scrapy scrapers that feed the price data.",
+        "description_nl": "Boodschappen-app die je waarschuwt als jouw producten in de aanbieding zijn en je lijst splitst over de goedkoopste supermarkten. 6.500+ gebruikers, 7 supermarktketens, live op iOS en Android. Ik bouw de Flutter-app, de Python/FastAPI-backend op PostgreSQL en de Scrapy-scrapers die de prijsdata leveren.",
         "image": "images/btrkoop.png",
-        "skills": ["Flutter", "Dart", "Python", "FastAPI", "Scrapy"]
+        "skills": [
+            "Flutter",
+            "Dart",
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "Scrapy"
+        ]
     },
     {
         "company": "TKNI.CO",
         "role_en": "Software Engineer",
         "role_nl": "Software Engineer",
         "duration": "Jul 2022 - Sep 2024",
-        "description_en": "Developed a version control system with Pulp, Angular, and Python. Automated infrastructure with Puppet for system configuration management. Set up CI/CD pipelines with GitLab. Developed embedded software in C++ for STM32 (ARM Cortex-M) Sensorbox project. Performed reverse engineering of electronic schematics and software.",
-        "description_nl": "Ontwikkelde een versiebeheersysteem met Pulp, Angular en Python. Automatiseerde infrastructuur met Puppet voor systeemconfiguratiebeheer. Zette CI/CD-pijplijnen op met GitLab. Ontwikkelde embedded software in C++ voor het STM32 (ARM Cortex-M) Sensorbox-project. Voerde reverse engineering uit van elektronische schema's en software.",
+        "description_en": "Managed configuration of 100+ Linux nodes in the field with Puppet, and installed and diagnosed nodes on-site at a solar and wind park. Graduation project: an Angular + Python interface on Pulp that lets colleagues update field nodes from version-locked repositories. Set up GitLab CI/CD and explored embedded C++ on STM32 (ARM Cortex-M).",
+        "description_nl": "Beheerde de configuratie van 100+ Linux-nodes in het veld met Puppet, en installeerde en diagnosticeerde nodes on-site bij een zonne- en windpark. Afstudeerproject: een Angular + Python-interface op Pulp waarmee collega's nodes in het veld updaten vanuit repositories met vastgezette versies. Zette GitLab CI/CD op en werkte aan embedded C++ op STM32 (ARM Cortex-M).",
         "image": "images/tknico.png",
-        "skills": ["C++", "STM32", "Python", "Angular", "Puppet", "GitLab", "CI/CD"]
+        "skills": [
+            "Puppet",
+            "Linux",
+            "Python",
+            "Angular",
+            "GitLab CI/CD",
+            "STM32",
+            "C++"
+        ]
     },
     {
         "company": "Infoment",
         "role_en": "Software Engineer",
         "role_nl": "Software Engineer",
         "duration": "May 2021 - Nov 2021",
-        "description_en": "Developed a cross-platform mobile application for a social platform (Android/iOS).",
-        "description_nl": "Ontwikkelde een cross-platform mobiele applicatie voor een sociaal platform (Android/iOS).",
+        "description_en": "Developed a cross-platform Flutter app (Android/iOS) for a social platform, with a shared library for the business logic.",
+        "description_nl": "Ontwikkelde een cross-platform Flutter-app (Android/iOS) voor een sociaal platform, met een gedeelde library voor de business logic.",
         "image": "images/infoment.png",
-        "skills": ["Flutter", "Dart", "Android", "iOS"]
+        "skills": [
+            "Flutter",
+            "Dart",
+            "Android",
+            "iOS"
+        ]
     },
     {
         "company": "Technolution",
-        "role_en": "Intern",
-        "role_nl": "Stagiair",
+        "role_en": "Embedded Software Engineer Intern",
+        "role_nl": "Stagiair Embedded Software",
         "duration": "Sep 2020 - Jan 2021",
-        "description_en": "Implemented and tested YOLO models for object detection on Jetson Nano. Performed performance analysis and optimizations on Jetson Nano.",
-        "description_nl": "Implementeerde en testte YOLO-modellen voor objectdetectie op Jetson Nano. Voerde prestatieanalyses en optimalisaties uit op Jetson Nano.",
+        "description_en": "Implemented YOLO object detection for traffic counting on a Jetson Nano, and profiled and optimised the Python application. Built a delta update from JetPack 4.2 to 4.4, which had no in-place upgrade path, so field devices could update over 4G while running.",
+        "description_nl": "Implementeerde YOLO-objectdetectie voor verkeerstelling op een Jetson Nano, en profileerde en optimaliseerde de Python-applicatie. Ontwikkelde een delta-update van JetPack 4.2 naar 4.4, waarvoor geen upgradepad bestond, zodat devices in het veld via 4G konden updaten terwijl ze draaiden.",
         "image": "images/technolution.png",
-        "skills": ["Python", "YOLO", "Jetson Nano"]
+        "skills": [
+            "Embedded Linux",
+            "Jetson Nano",
+            "YOLO",
+            "Python"
+        ]
     }
 ]

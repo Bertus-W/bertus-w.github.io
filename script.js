@@ -64,6 +64,25 @@ document.addEventListener("DOMContentLoaded", () => {
     return `rgb(${pixel[0]}, ${pixel[1]}, ${pixel[2]})`;
   };
 
+  // Lightbox for viewing project images full size
+  const lightbox = document.createElement("div");
+  lightbox.classList.add("lightbox");
+  lightbox.innerHTML = `<img class="lightbox-image" alt="">`;
+  document.body.appendChild(lightbox);
+  const lightboxImage = lightbox.querySelector(".lightbox-image");
+
+  const openLightbox = (src, alt) => {
+    lightboxImage.src = src;
+    lightboxImage.alt = alt;
+    lightbox.classList.add("open");
+  };
+  const closeLightbox = () => lightbox.classList.remove("open");
+
+  lightbox.addEventListener("click", closeLightbox);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
+
   const renderSkillBadges = (skills) => {
     if (!skills || skills.length === 0) return "";
     return `
@@ -135,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3>${project.name}</h3>
               <p>${project["description_" + lang]}</p>
               ${renderSkillBadges(project.skills)}
-              <a href="${project.url}">${viewText}</a>
+              ${project.url ? `<a href="${project.url}">${viewText}</a>` : ""}
             </div>
           `;
 
@@ -146,6 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
               const bgColor = sampleImageBackground(img);
               img.parentElement.style.backgroundColor = bgColor;
             };
+            img.addEventListener("click", () => openLightbox(img.src, img.alt));
           }
 
           projectGrid.appendChild(projectCard);
