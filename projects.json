@@ -48,10 +48,10 @@
     },
     {
         "name": "artsey-pcb-design",
-        "description_en": "PCB design files for an Artsey keyboard.",
-        "description_nl": "PCB ontwerpbestanden voor een Artsey toetsenbord.",
+        "description_en": "An ARTSEY one-handed chorded keyboard, built end to end: PCB designed in KiCad, a self-designed 3D-printed housing, soldered and assembled, running QMK firmware.",
+        "description_nl": "Een eenhandig ARTSEY chorded toetsenbord, van begin tot eind gebouwd: PCB ontworpen in KiCad, een zelf ontworpen 3D-geprinte behuizing, gesoldeerd en geassembleerd, met QMK-firmware.",
         "url": "https://github.com/bertus-w/artsey-pcb-design",
         "image": "images/artsey.png",
-        "skills": ["PCB Design", "KiCad"]
+        "skills": ["PCB Design", "KiCad", "3D Printing", "QMK"]
     }
 ]
